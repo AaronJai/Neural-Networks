@@ -1,0 +1,38 @@
+1. Building Blocks: Neurons
+
+    - basic units of a neural network.
+    - takes input, does math with them, and produces an output.
+
+2-input neuron:
+
+input x1 -> Multiply by weight w1
+input x2 -> Multiply by weight w2
+
+Weighted inputs added together with a bias b:
+(x1 * w1) + (x1 * w2) + b
+
+Sum passed through an activation function:
+y = f(x1 * w1 + x2 * w2 + b)
+
+Activation functions turn an unbounded input into an input that has a nice predictable form.
+Common activation function is the sigmoid function. (outputs numbers in the range 0-1)
+
+Example
+x = [2,3]
+w=[0,1]
+𝑏=4
+
+= 2 * 0 + 3 * 1 + b
+= 7
+
+y= f(7) = 0.999
+
+this process of passing inputs forward to get an output = FEEDFORWARD
+
+
+MSE LOSS
+
+1/n * SUM(ytrue - yloss)^2
+
+
+stochastic gradient descent (SGD) tells us how to change our weights and biases to minimize loss.
