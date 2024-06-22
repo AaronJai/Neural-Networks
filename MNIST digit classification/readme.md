@@ -11,5 +11,20 @@ Each image in the MNIST dataset is 28x28 and contains a centered, grayscale digi
 > pip install tensorflow numpy mnist
 No need to install keras package as it is bundled with TensorFlow
 
+### ISSUE
+There is an issue with imports where it 'cannot be resolved'
 
-Inspiration: https://victorzhou.com/blog/keras-neural-network-tutorial/
+>from tensorflow.keras.models import Sequential
+>from tensorflow.keras.layers import Dense
+>from tensorflow.keras.utils import to_categorical
+
+**nor**
+
+>from tensorflow import keras
+>rom keras.models import Sequential
+>from keras.layers import Dense
+>rom keras.utils import to_categorical
+
+works..
+
+Inspiration: [Victor Chou](https://victorzhou.com/blog/keras-neural-network-tutorial/)
