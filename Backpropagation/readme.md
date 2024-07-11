@@ -11,5 +11,4 @@ Part 2: A Harder Toy Network
 implements a simple neural network with one hidden layer to learn a binary classification
 
 
-Inspiration: iamtrask
-https://iamtrask.github.io/2015/07/12/basic-python-network/
+Inspiration: [iamtrask](https://iamtrask.github.io/2015/07/12/basic-python-network/)
